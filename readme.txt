@@ -74,12 +74,12 @@ https://codecanyon.net/item/pdf-viewer-for-wordpress/8182815
 2. Viewer screenshot with some toolbars opened
 3. Admin Panel Screenshot
 4. PDF Viewer create screenshot
-4. Creating Shortcodes
+5. Creating Shortcodes
  
 == Changelog ==
  
 = 1.0 =
-* Initial Release of the lite version
+* Initial Release of the free version
 
 == Upgrade Notice ==
 
