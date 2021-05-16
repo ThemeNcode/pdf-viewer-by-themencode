@@ -9,12 +9,12 @@
  * @package pdf-viewer-by-themencode
  */
 
-if( ! function_exists( 'tnc_pvfw_enqueue_script' )){
+if ( ! function_exists( 'tnc_pvfw_enqueue_script' ) ) {
 	/**
 	 * Enqueue jquery as some themes may have jquery disabled.
 	 */
 	function tnc_pvfw_enqueue_script() {
-		if ( is_singular( 'pdfviewer' ) ){
+		if ( is_singular( 'pdfviewer' ) ) {
 			global $post;
 
 			wp_enqueue_script( 'jquery', false, array(), false, false );
@@ -43,8 +43,8 @@ if( ! function_exists( 'tnc_pvfw_enqueue_script' )){
 					var fto = "' . $fto . '";
 					var tnc_print = "' . $print . '";
 					var tnc_dl = "' . $download . '";
-					var tnc_scroll_default = "' . $scroll_default . '";
-					var tnc_spread_default = "' . $spread_default . '";',
+					var tnc_scroll_default = ' . $scroll_default . ';
+					var tnc_spread_default = ' . $spread_default . ';',
 				   	$position = 'after' );
 			}
 			wp_enqueue_script( 'themencode-pdf-viewer-viewer-js', plugins_url() . '/' . PVFW_LITE_PLUGIN_DIR . '/web/viewer.js', array(), PVFW_LITE_PLUGIN_VERSION, false );
@@ -113,4 +113,3 @@ function tnc_pvfw_add_viewer_styles() {
 		wp_enqueue_style( 'themencode-pdf-viewer-modal-css', plugins_url() . '/' . PVFW_LITE_PLUGIN_DIR . '/tnc-resources/jquery.modal.min.css', array(), PVFW_LITE_PLUGIN_VERSION, 'all' );
 	}
 }
-
