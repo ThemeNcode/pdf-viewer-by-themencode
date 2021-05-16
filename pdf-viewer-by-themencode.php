@@ -30,7 +30,7 @@ define( 'PVFW_LITE_RESOURCES_DIR', 'pdf-viewer-by-themencode/tnc-resources' );
 require_once plugin_dir_path( __FILE__ ) . 'admin/tnc-pdf-viewer-options.php';
 require_once plugin_dir_path( __FILE__ ) . '/includes/helper-functions.php';
 require_once plugin_dir_path( __FILE__ ) . '/includes/cpt.php';
-require_once plugin_dir_path( __FILE__ ) . '/includes/csf/codestar-framework.php';
+require_once plugin_dir_path( __FILE__ ) . '/includes/codestar-framework/codestar-framework.php';
 require_once plugin_dir_path( __FILE__ ) . '/includes/pvfw-csf-options.php';
 require_once plugin_dir_path( __FILE__ ) . '/includes/pvfw-csf-custom-field.php';
 require_once plugin_dir_path( __FILE__ ) . '/includes/pvfw-csf-sc.php';
