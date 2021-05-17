@@ -300,7 +300,11 @@ See https://github.com/adobe-type-tools/cmap-resources
 
     <link rel="resource" type="application/l10n" href="<?php echo plugins_url() . '/' . PVFW_LITE_PLUGIN_DIR . '/web/locale/locale.properties';  ?>" >
 
+    <?php do_action( 'wp_head' ); ?>
     <style type="text/css">
+        html{
+          margin-top: 0px!important;
+        }
         #tnc-share{
           display: none;
           position: absolute !important;
@@ -385,8 +389,6 @@ See https://github.com/adobe-type-tools/cmap-resources
         }
         <?php echo $custom_css; ?>
     </style>
-
-    <?php do_action( 'wp_head' ); ?>
     <?php do_action( 'tnc_pvfw_head' ); ?>
   </head>
   <body <?php body_class('loadingInProgress'); ?> tabindex="1">
