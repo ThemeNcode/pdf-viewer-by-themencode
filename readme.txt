@@ -1,6 +1,6 @@
 === PDF Viewer by ThemeNcode ===
 Contributors: ThemeNcode, abdulawal39
-Tags: pdf, pdf reader, flipbook,media
+Tags: pdf, pdf reader, flipbook,media, pdf viewer for wordpress
 Requires at least: 4.0
 Donate Link: https://paypal.me/abdulawal39
 Tested up to: 5.7.2
