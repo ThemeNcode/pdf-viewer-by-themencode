@@ -17,7 +17,7 @@ PDF Viewer for WordPress was released on 2014 as a premium plugin. Thousands of 
 
 This plugin allows you to display PDF files on your website with a nice, clean, modern & feature-rich PDF Viewer. It comes with 3 different Themes Midnight Calm, Material Blue, and Aqua White. The premium version also allows you to customize with your own colors as well.
 
-### Features ###
+<h3>Features</h3>
 * Fully Responsive PDF Viewer
 * FlipBook Mode (Premium)
 * Gutenberg block to generate shortcodes.
