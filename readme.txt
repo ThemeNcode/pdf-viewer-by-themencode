@@ -44,14 +44,23 @@ This plugin allows you to display PDF files on your website with a nice, clean, 
 * Disable Right click and copying (premium)
 * Using the power of pdf.js
 
-Check out the premium version on codecanyon <a href="https://codecanyon.net/item/pdf-viewer-for-wordpress/8182815" target="_blank">here</a>
+<h3>Live Preview</h3>
+Check out PDF Viewer by ThemeNcode live <a href="https://themencode.com/live-preview/pdf-viewer-for-wordpress/" target="_blank">here</a>
 
-<strong>Need Support?</strong>
+<h3>Documentation</h3>
+Check out the documentation on our support portal <a href="https://themencode.support-hub.io/knowledgebase/977" target="_blank">here</a>
+
+<h3>Need Support?</h3>
 Contact us using our <a href="https://themencode.support-hub.io/" target="_blank">support portal</a>
+
+<h3>Get Premium Version</h3>
+Check out the premium version on codecanyon <a href="https://codecanyon.net/item/pdf-viewer-for-wordpress/8182815" target="_blank">here</a>
  
 == Installation ==
- 
+
 Installation is simple as any other WordPress Plugins.
+
+<strong>Automatic Install</strong>
 
 * Login to your wp-admin
 * Navigate to Plugins > Add New
@@ -60,9 +69,27 @@ Installation is simple as any other WordPress Plugins.
 * Once installed click on activate now button
 * Done, now start using PDF Viewer by ThemeNcode
 
+<strong>Manual Install</strong>
+
+* Download the zipped plugin from wordpress repository
+* Upload unzipped pdf-viewer-by-themencode.zip to the /wp-content/plugins/ directory or upload zipped file using Plugins > Add New > Upload button
+* Activate the plugin through the ‘Plugins’ menu in WordPress
+* Done!
  
 == Frequently Asked Questions ==
+
+= Is there any Live Preview? =
+
+Yes, you can see it in action here: https://themencode.com/live-preview/pdf-viewer-for-wordpress/
+
+= Is there any Video instructions? =
  
+Yes, you can follow this playlist on youtube: https://youtube.com/playlist?list=PL0BHfncpP5oSkv9_LfgeXoElT_xhhEla1
+
+= Where can I find product documentation? =
+
+Documentation is available on this url: https://themencode.support-hub.io/knowledgebase/977
+
 = Where can I get premium version? =
  
 https://codecanyon.net/item/pdf-viewer-for-wordpress/8182815
