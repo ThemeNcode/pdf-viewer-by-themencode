@@ -73,7 +73,13 @@ CSF::createSection( $prefix, array(
     array(
       'id'    => 'iframe_title',
       'type'  => 'text',
-      'title' => 'iFrame Titlte',
+      'title' => 'iFrame Title',
+    ),
+
+    array(
+      'id'    => 'page',
+      'type'  => 'text',
+      'title' => 'Jump to page',
     ),
   )
 
@@ -134,6 +140,12 @@ CSF::createSection( $prefix, array(
           '_parent'  => 'Same Tab',
         ),
         'default'     => '_parent'
+      ),
+
+      array(
+        'id'    => 'page',
+        'type'  => 'text',
+        'title' => 'Jump to page',
       ),
     )
 

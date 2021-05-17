@@ -26,6 +26,7 @@ if ( ! function_exists( 'tnc_pvfw_embed_shortcode' )){
 					'height'       => '800',
 					'viewer_id'    => '',
 					'iframe_title' => '',
+					'page'         => '',
 				),
 				$atts,
 				'tnc_pdf_embed_shortcode',
@@ -54,9 +55,9 @@ if ( ! function_exists( 'tnc_pvfw_embed_shortcode' )){
 		$output  = '';
 
 		if ( $fullscreen == 'on' ) {
-			$output .= '<a class="fullscreen-mode" href="' . esc_url( get_permalink( $viewer_id ) ) . '" target="_blank">' . esc_attr( $fullscreen_text ) . '</a><br>';
+			$output .= '<a class="fullscreen-mode" href="' . esc_url( get_permalink( $viewer_id ) ) . '#page=' . $page . '" target="_blank">' . esc_attr( $fullscreen_text ) . '</a><br>';
 		}
-		$output .= '<iframe width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '" src="' . esc_url ( get_permalink( $viewer_id ) ) . '" title="' . esc_attr( $iframe_title ) . '"></iframe>';
+		$output .= '<iframe width="' . esc_attr( $width ) . '" height="' . esc_attr( $height ) . '" src="' . esc_url ( get_permalink( $viewer_id ) ) . '#page=' . $page . '" title="' . esc_attr( $iframe_title ) . '"></iframe>';
 
 		return $output;
 	}
@@ -79,6 +80,7 @@ if ( ! function_exists( 'tnc_pvfw_link_shortcode' )){
 					'target'    => '_blank',
 					'viewer_id' => '',
 					'class'     => 'tnc-pdf',
+					'page'         => '',
 				),
 				$atts,
 				'tnc_pdf_new_link_shortcode',
@@ -87,7 +89,7 @@ if ( ! function_exists( 'tnc_pvfw_link_shortcode' )){
 
 		$output  = '';
 
-		$output .= '<a href="' . esc_url( get_permalink( $viewer_id ) ) . '" class="' . esc_attr( $class ) . '" target="' . esc_attr( $target ) . '">' . esc_html( $text ) . '</a>';
+		$output .= '<a href="' . esc_url( get_permalink( $viewer_id ) ) . '#page=' . $page . '" class="' . esc_attr( $class ) . '" target="' . esc_attr( $target ) . '">' . esc_html( $text ) . '</a>';
 
 		return $output;
 	}

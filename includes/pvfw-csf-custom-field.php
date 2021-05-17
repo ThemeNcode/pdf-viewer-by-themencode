@@ -211,12 +211,6 @@ if ( class_exists( 'CSF' ) ) {
 				),
 
 				array(
-					'id'    => 'page',
-					'type'  => 'number',
-					'title' => 'Jump to Page',
-				),
-
-				array(
 					'id'       => 'return-link',
 					'type'     => 'text',
 					'title'    => esc_html__( 'Return to Site Link', 'pdf-viewer-by-themencode' ),
