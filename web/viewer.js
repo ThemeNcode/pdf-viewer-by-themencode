@@ -14980,7 +14980,7 @@ function pvfw_prevpage(){
   let spread_mode = PDFViewerApplication.pdfViewer.spreadMode;
   var numPages = PDFViewerApplication.pagesCount;
 
-  var get_direction = $("html").attr('dir');
+  var get_direction = jQuery("html").attr('dir');
 
   if( get_direction == "rtl" ){
     if( spread_mode == "2" ){
@@ -15010,7 +15010,7 @@ function pvfw_nextpage(){
   let spread_mode = PDFViewerApplication.pdfViewer.spreadMode;
   var numPages = PDFViewerApplication.pagesCount;
 
-  var get_direction = $("html").attr('dir');
+  var get_direction = jQuery("html").attr('dir');
 
   if( get_direction == "rtl" ){
     if( spread_mode == "2" ){

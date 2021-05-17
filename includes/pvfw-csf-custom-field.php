@@ -217,7 +217,7 @@ if ( class_exists( 'CSF' ) ) {
 					'subtitle' => esc_html__( 'Enter the url where the Return to site button on bottom right should link to. Keeping blank will use the previous page link.', 'pdf-viewer-by-themencode' ),
 				),
 			),
-		),
+		)
 	);
 
 	CSF::createSection(
@@ -343,7 +343,7 @@ if ( class_exists( 'CSF' ) ) {
 					'default'    => true,
 				),
 			),
-		),
+		)
 	);
 
 	CSF::createSection(

@@ -29,11 +29,11 @@ if ( ! function_exists( 'tnc_pvfw_embed_shortcode' )){
 					'page'         => '',
 				),
 				$atts,
-				'tnc_pdf_embed_shortcode',
+				'tnc_pdf_embed_shortcode'
 			)
 		);
 
-		$get_pvfw_global_settings = get_option( 'pvfw_csf_options', );
+		$get_pvfw_global_settings = get_option( 'pvfw_csf_options' );
 		$get_pvfw_single_settings = get_post_meta( $viewer_id, 'tnc_pvfw_pdf_viewer_fields', true );
 
 		$toolbar_use_global = $get_pvfw_single_settings['toolbar-elements-use-global-settings'];
@@ -83,7 +83,7 @@ if ( ! function_exists( 'tnc_pvfw_link_shortcode' )){
 					'page'         => '',
 				),
 				$atts,
-				'tnc_pdf_new_link_shortcode',
+				'tnc_pdf_new_link_shortcode'
 			)
 		);
 

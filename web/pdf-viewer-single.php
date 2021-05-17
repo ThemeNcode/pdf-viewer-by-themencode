@@ -842,7 +842,7 @@ Thank You
           </a>
         </div>
         <?php do_action( 'tnc_pvfw_footer' ); ?>
-        <?php if( $pagenav != "on" ){ ?>
+        <?php if( $pagenav != "off" ){ ?>
           <button style="<?php tnc_pvfw_viewer_display_pagenav($pagenav); ?>" class=" pvfw_page_prev" id="pvfw-previous-page" onclick="pvfw_prevpage()"><img src="<?php echo plugins_url()."/".PVFW_LITE_WEB_DIR."/"; ?>schemes/light-icons/toolbarButton-pagePrev.svg"  alt=""></button>
 
           <button style="<?php tnc_pvfw_viewer_display_pagenav($pagenav); ?>" class="pvfw_page_next" id="pvfw-next-page" onclick="pvfw_nextpage()"><img src="<?php echo plugins_url()."/".PVFW_LITE_WEB_DIR."/"; ?>schemes/light-icons/toolbarButton-pageNext.svg"  alt=""></button>
@@ -852,21 +852,21 @@ Thank You
           <button style="<?php tnc_pvfw_viewer_display_pagenav($pagenav); ?> display: none;" class="pvfw_page_next" id="pvfw-flip-next-page"><img src="<?php echo plugins_url()."/".PVFW_LITE_WEB_DIR."/"; ?>schemes/light-icons/toolbarButton-pageNext.svg"  alt=""></button>
 
           <script>
-          $("#pvfw-flip-next-page").on("click", function(e){
-            var get_direction = $("html").attr('dir');
+          jQuery("#pvfw-flip-next-page").on("click", function(e){
+            var get_direction = jQuery("html").attr('dir');
             if( get_direction == "rtl" ){
-              $("#viewer").turn("previous");
+              jQuery("#viewer").turn("previous");
             } else {
-              $("#viewer").turn("next");
+              jQuery("#viewer").turn("next");
             }
           });
 
-          $("#pvfw-flip-previous-page").on("click", function(e){
-            var get_direction = $("html").attr('dir');
+          jQuery("#pvfw-flip-previous-page").on("click", function(e){
+            var get_direction = jQuery("html").attr('dir');
             if( get_direction == "rtl" ){
-              $("#viewer").turn("next");
+              jQuery("#viewer").turn("next");
             } else {
-              $("#viewer").turn("previous");
+              jQuery("#viewer").turn("previous");
             }
           });
         </script>

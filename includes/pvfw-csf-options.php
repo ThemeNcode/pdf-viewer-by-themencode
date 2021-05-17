@@ -588,7 +588,7 @@ if ( class_exists( 'CSF' ) ) {
         'default' => true,
       ),
     )
-), );
+));
 
   CSF::createSection( $prefix, array(
     'title'  => 'Advanced',
