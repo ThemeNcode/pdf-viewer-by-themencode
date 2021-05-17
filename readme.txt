@@ -15,7 +15,9 @@ Most used PDF Reader plugin for WordPress since 2014. Display PDF's of your webs
  
 PDF Viewer for WordPress was released on 2014 as a premium plugin. Thousands of websites are being powered by PDF Viewer for WordPress at this moment.  This is the lite version of the plugin,
 
-This plugin allows you to display PDF files on your website with a nice, clean, modern & feature-rich PDF Viewer. It comes with 3 different Themes Midnight Calm, Material Blue, and Aqua White. The premium version also allows you to customize with your own colors as well.
+This plugin allows you to display PDF files on your website with a nice, clean, modern & feature-rich PDF Viewer. It comes with 3 different Themes Midnight Calm, Material Blue, and Aqua White. The premium version also allows you to customize with your own colors as well. 
+
+PDF Viewer by ThemeNcode is the Free version of PDF Viewer for WordPress. PDF Viewer for WordPress is the best selling PDF Reader plugin for WordPress available on codecanyon since 2014. This free version is released on May 2021.
 
 <h3>Features</h3>
 * Fully Responsive PDF Viewer
@@ -53,7 +55,7 @@ Check out the documentation on our support portal <a href="https://themencode.su
 <h3>Need Support?</h3>
 Contact us using our <a href="https://themencode.support-hub.io/" target="_blank">support portal</a>
 
-<h3>Get Premium Version</h3>
+<h3>Get PDF Viewer for WordPress</h3>
 Check out the premium version on codecanyon <a href="https://codecanyon.net/item/pdf-viewer-for-wordpress/8182815" target="_blank">here</a>
  
 == Installation ==
