@@ -248,7 +248,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
-    value: "",
+    value: tnc_zoom_default,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   disableHistory: {
@@ -1558,7 +1558,8 @@ const PDFViewerApplication = {
 
         const initialBookmark = this.initialBookmark;
 
-        const zoom = _app_options.AppOptions.get("defaultZoomValue");
+        // const zoom = _app_options.AppOptions.get("defaultZoomValue");
+        const zoom = tnc_zoom_default; // ThemeNcode
 
         let hash = zoom ? `zoom=${zoom}` : null;
         let rotation = null;
@@ -2883,7 +2884,8 @@ function webViewerUpdateViewarea(evt) {
   if (store && PDFViewerApplication.isInitialViewSet) {
     store.setMultiple({
       page: location.pageNumber,
-      zoom: location.scale,
+      // zoom: location.scale,
+      zoom: tnc_zoom_default,
       scrollLeft: location.left,
       scrollTop: location.top,
       rotation: location.rotation

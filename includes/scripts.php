@@ -26,13 +26,15 @@ if ( ! function_exists( 'tnc_pvfw_enqueue_script' ) ) {
 
 			if( ! empty ( $post->ID ) ){
 				$get_pvfw_single_settings_for_js = get_post_meta( $post->ID, 'tnc_pvfw_pdf_viewer_fields', true );
-				$get_language = $get_pvfw_single_settings_for_js['language'];
-				$fto = base64_encode( $get_pvfw_single_settings_for_js['file'] );
-				$print = $get_pvfw_single_settings_for_js['print'];
-				$download = $get_pvfw_single_settings_for_js['download'];
-				$scroll_default = $get_pvfw_single_settings_for_js['default_scroll'];
-				$spread_default = $get_pvfw_single_settings_for_js['default_spread'];
-				wp_add_inline_script( 
+				$get_language                    = $get_pvfw_single_settings_for_js['language'];
+				$fto                             = base64_encode( $get_pvfw_single_settings_for_js['file'] );
+				$print                           = $get_pvfw_single_settings_for_js['print'];
+				$download                        = $get_pvfw_single_settings_for_js['download'];
+				$scroll_default                  = $get_pvfw_single_settings_for_js['default_scroll'];
+				$spread_default                  = $get_pvfw_single_settings_for_js['default_spread'];
+				$zoom_default                    = $get_pvfw_single_settings_for_js['default_zoom'];
+
+				wp_add_inline_script(
 					'themencode-pdf-viewer-pdf-js',
 					'var tnc_locale = "'. $get_language .'";
 					var tnc_imageResourcesPath = "'. plugins_url() . '/' . PVFW_LITE_PLUGIN_DIR .'/web/images/";
@@ -44,9 +46,11 @@ if ( ! function_exists( 'tnc_pvfw_enqueue_script' ) ) {
 					var tnc_print = "' . $print . '";
 					var tnc_dl = "' . $download . '";
 					var tnc_scroll_default = ' . $scroll_default . ';
-					var tnc_spread_default = ' . $spread_default . ';',
-				   	$position = 'after' );
+					var tnc_spread_default = ' . $spread_default . ';
+					var tnc_zoom_default = "' . $zoom_default . '";',
+			   		$position = 'after' );
 			}
+
 			wp_enqueue_script( 'themencode-pdf-viewer-viewer-js', plugins_url() . '/' . PVFW_LITE_PLUGIN_DIR . '/web/viewer.js', array(), PVFW_LITE_PLUGIN_VERSION, false );
 			wp_enqueue_script( 'themencode-pdf-viewer-send-to-friend-js', plugins_url() . '/' . PVFW_LITE_PLUGIN_DIR . '/tnc-resources/send-to-friend.js', array(), PVFW_LITE_PLUGIN_VERSION, false );
 		}

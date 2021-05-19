@@ -5,7 +5,7 @@ Requires at least: 4.0
 Donate Link: https://paypal.me/abdulawal39
 Tested up to: 5.7.2
 Requires PHP: 5.6
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
@@ -106,6 +106,9 @@ https://codecanyon.net/item/pdf-viewer-for-wordpress/8182815
 5. Creating Shortcodes
  
 == Changelog ==
+= 1.1.4 =
+* Fixed issue with default zoom
+
 = 1.1.3 =
 * Fixed Pagenav
 * Fixed compatibility with older versions of php

@@ -3,7 +3,7 @@
  * Plugin Name: PDF Viewer by ThemeNcode
  * Plugin URI: https://themencode.com/pdf-viewer-by-themencode/
  * Description: The best PDF Reader Plugin for WordPress since 2014, Powers up your WordPress website with a smart and modern PDF Reader.
- * Version: 1.1.3
+ * Version: 1.1.4
  * Author: ThemeNcode
  * Author URI: https://themencode.com
  * Text Domain: pdf-viewer-by-themencode
@@ -21,7 +21,7 @@ if ( ! defined( 'WPINC' ) ) {
 // Define constants.
 define( 'PVFW_LITE_PLUGIN_NAME', 'PDF Viewer by ThemeNcode' );
 define( 'PVFW_LITE_PLUGIN_DIR', 'pdf-viewer-by-themencode' );
-define( 'PVFW_LITE_PLUGIN_VERSION', '1.1.3' );
+define( 'PVFW_LITE_PLUGIN_VERSION', '1.1.4' );
 define( 'PVFW_LITE_WEB_DIR', 'pdf-viewer-by-themencode/web' );
 define( 'PVFW_LITE_BUILD_DIR', 'pdf-viewer-by-themencode/build' );
 define( 'PVFW_LITE_RESOURCES_DIR', 'pdf-viewer-by-themencode/tnc-resources' );
