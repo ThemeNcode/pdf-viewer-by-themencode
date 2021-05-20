@@ -99,11 +99,13 @@ https://codecanyon.net/item/pdf-viewer-for-wordpress/8182815
  
 == Screenshots ==
  
-1. Viewer Screenshot
+1. Midnight Calm Theme
 2. Viewer screenshot with some toolbars opened
-3. Admin Panel Screenshot
-4. PDF Viewer create screenshot
+3. Material Blue Theme
+4. Aqua White Theme
 5. Creating Shortcodes
+6. Admin Panel Screenshot
+7. PDF Viewer create screenshot
  
 == Changelog ==
 = 1.1.4 =
