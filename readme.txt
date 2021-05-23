@@ -12,6 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Most used PDF Reader plugin for WordPress since 2014. Display PDF's of your website with a nice, modern, responsive and toolbar-rich PDF Viewer.
  
 == Description ==
+
 <a href="http://themencode.com/live-preview/pdf-viewer-for-wordpress" target="_blank">Live Preview</a> | <a href="https://themencode.support-hub.io/knowledgebase/977" target="_blank">Documentation</a> | <a href="https://themencode.support-hub.io/" target="_blank">Support</a>
  
 PDF Viewer for WordPress was released on 2014 as a premium plugin. Thousands of websites are being powered by PDF Viewer for WordPress at this moment.  This is the lite version of the plugin,
