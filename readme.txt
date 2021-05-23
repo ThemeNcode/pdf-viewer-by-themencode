@@ -38,10 +38,11 @@ PDF Viewer by ThemeNcode is the Free version of PDF Viewer for WordPress. PDF Vi
 * Share the link on  social media or by email
 * Brand with your own logo & favicon
 * Custom JS on viewer (Premium)
+* 3 Different color Themes (Midnight Calm, Material Blue, Aqua White)
+* Customize with your own color Theme (Premium)
 * No Limitation of pdf size 
 * Fast & smooth user experience 
-* It uses jQuery to replace url’s automatically which won’t effect on your Site’s SEO if you use the plugin on old site.
-* It uses jQuery to replace url’s automatically which won’t effect on your Site’s SEO if you use the plugin on old site.
+* Uses jQuery to replace url’s automatically which won’t effect on your Site’s SEO if you use the plugin on old site.
 * Global Sync, Don't waste your time by choosing all settings every time you create a pdf viewer (premium)
 * Feature Rich Admin Panel & Shortcodes 
 * Toolbar texts available in 100+ languages
