@@ -22,33 +22,31 @@ This plugin allows you to display PDF files on your website with a nice, clean, 
 PDF Viewer by ThemeNcode is the Free version of PDF Viewer for WordPress. PDF Viewer for WordPress is the best selling PDF Reader plugin for WordPress available on codecanyon since 2014. This free version is released on May 2021.
 
 <h3>Features</h3>
-* Very Easy to use
 * Fully Responsive PDF Viewer
-* Cross Browser & OS supported
-* 2 type of display, embed and link
+* FlipBook Mode (Premium)
 * Gutenberg block to generate shortcodes.
 * Option to generate classic editor shortcodes.
-* Lots of toolbar items
+* Addons available for Elementor & WPBakery Page Builder.
+* Very Easy to use
+* 2 type of display, embed and link
+* Automatic Display: Convert all existing links to open or embed with PDF Viewer automatically (Premium)
+* Cross Browser & OS supported
+* Works on most modern browsers like Chrome, Firefox, Safari, Opera, Brave, Chromium based Edge and others.
+* lots of toolbar items
+* Google Analytics (Premium)
 * Display/Hide any of the toolbar items
 * Share the link on  social media or by email
 * Brand with your own logo & favicon
-* No Limitation of pdf size
+* Custom JS on viewer (Premium)
+* No Limitation of pdf size 
 * Fast & smooth user experience 
+* It uses jQuery to replace url’s automatically which won’t effect on your Site’s SEO if you use the plugin on old site.
+* It uses jQuery to replace url’s automatically which won’t effect on your Site’s SEO if you use the plugin on old site.
+* Global Sync, Don't waste your time by choosing all settings every time you create a pdf viewer (premium)
 * Feature Rich Admin Panel & Shortcodes 
 * Toolbar texts available in 100+ languages
+* Disable Right click and copying (premium)
 * Using the power of pdf.js
-* Addons available for Elementor & WPBakery Page Builder.
-* Works on most modern browsers like Chrome, Firefox, Safari, Opera, Brave, Chromium based Edge and others.
-* It uses jQuery to replace url’s automatically which won’t effect on your Site’s SEO if you use the plugin on old site.
-
-<h3>Premium Features</h3>
-* FlipBook Mode
-* Google Analytics
-* Custom JS on viewer
-* Disable Right click and copying
-* Global Sync, Save time by not adjusting all the settings every time you create a pdf viewer
-* Automatic Display: Convert all existing links to open or embed with PDF Viewer automatically
-
 
 <h3>Live Preview</h3>
 Check out PDF Viewer by ThemeNcode live <a href="https://themencode.com/live-preview/pdf-viewer-for-wordpress/" target="_blank">here</a>
