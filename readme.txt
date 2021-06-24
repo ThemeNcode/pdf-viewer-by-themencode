@@ -1,4 +1,4 @@
-=== PDF Viewer for WordPress Lite ===
+=== PDF Viewer by ThemeNcode ===
 Contributors: ThemeNcode, abdulawal39
 Tags: pdf, pdf reader, flipbook,media
 Requires at least: 4.0
